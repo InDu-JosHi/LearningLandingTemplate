@@ -1,0 +1,297 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/*----------------------Navigation----------------------------*/
+.main{
+    background-image: url(./workspace-1280538_960_720.jpg);
+    height: 130vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3% 8%;
+    flex-wrap:wrap;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav li{
+    display: inline;
+    margin: 0px 50px 0px 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.nav li:hover{
+    background-color: red;
+    padding: 55px 10px 40px;
+}
+.home{
+    background-color: red;
+    padding:55px 10px 40px;
+}
+.icons{
+    background-color: rgba(61, 60, 60,0.7);
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+.icons:hover{
+    background-color: transparent;
+    border: 1px solid grey;
+}
+.icons i{
+    margin: 0px 10px 0px;
+    font-size: 18px;
+}
+.icons i:hover{
+    color: red;
+    font-size: 20px;
+}
+.name{
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 18px;
+    font-style: italic;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+/*-----------X-----------Navigation------------X----------------*/
+
+
+/*----------------------About Section----------------------------*/
+.sub-main{
+    margin: 0% 12%;
+    border-radius: 10px 10px;
+    background-color: rgba(14, 8, 8, 0.041);
+    box-shadow: 2px -2px 50px 10px black;
+    padding: 80px 50px 250px;
+}
+.about{
+    text-align: center;
+}
+.none{
+    margin: 0% 25%;
+    }
+.about-container{
+        display: flex;
+        justify-content: space-around;
+    }
+.about h1{
+    font-size: 100px;
+    letter-spacing: 1px;
+    line-height: 75px;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+.about small{
+    font-size: 20px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.about p{
+    font-size: 18px;
+    margin: 35px 0px;
+}
+.about button{
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 12px 35px;
+    border-radius: 5px;
+}
+.about button:hover{
+    border: 1px solid red;
+    font-size: 14px;
+    background-color: transparent;
+    color: red;
+}
+
+/*-----------X-----------About Section------------X----------------*/
+
+
+/*-------------------------More About----------------------------*/
+.more-about{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0% 12%;
+    background-color: rgba(32, 25, 25, 0.3);
+    box-shadow: -2px 2px 50px 10px black ;
+}
+.background{
+    background-image: url(./wooden-floor-1853405_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+}
+.work{
+    text-align: right;
+    padding: 80px 50px;
+    width: 50%;
+}
+.work h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.work p{
+    margin-bottom: 25px;
+}
+.work button{
+        color: white;
+        border: none;
+        background-color: red;
+        padding: 12px 35px;
+        border-radius: 5px;
+    }
+.work button:hover{
+        border: 1px solid red;
+        font-size: 14px;
+        background-color: transparent;
+        color: red;
+    }
+.team{
+    text-align: left;
+    padding: 80px 50px;
+    width: 50%;
+}
+.team h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+.team h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+.team small{
+    font-size: 16px;
+    font-style: italic;
+}
+.team img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.tm{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 25px 0px;
+}
+
+/*-----------X-----------More About------------X----------------*/
+
+
+
+
+/*----------------------Selected Work---------------------------*/
+.selected-work h1{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin: 40px 0px;
+}
+.span{
+   text-align: center;
+}
+.span span{
+    margin: 30px 20px;
+    background-color: rgba(165, 161, 161, 0.8);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+.span span:hover{
+    background-color: rgba(19, 14, 14,0.8);
+    font-size: 15px;
+    color: white;
+}
+.images{
+    margin: 15%;
+    display: inline;
+}
+.selected-work img{
+    height: 200px;
+    width: 400px;
+}
+/*-----------X-----------Selected Work------------X----------------*/
+
+/*---------------------Info----------------------------*/
+.info{
+    text-align: center;
+    padding:80px 0px 40px 0px;
+    background-color: rgb(48, 40, 40);
+}
+.form{
+   margin: 10px 60px;
+}
+.form h1{
+    margin: 0px 0px 40px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0% 35%;
+}
+.input input{
+    padding: 10px 35px ;
+    border: none;
+    background-color: rgb(148, 148, 148);
+    border-radius: 5px;
+    margin: 8px ;
+    cursor: pointer;
+}
+.msg input{
+    padding: 15px 50px 60px 15px;
+    border: none;
+    background-color: rgb(148, 148, 148);
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+::placeholder{
+    color: white;
+}
+.info button{
+    margin-top: 30px;
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 12px 40px;
+    border-radius: 5px;
+}
+.info button:hover{
+    border: 1px solid red;
+    font-size: 14px;
+    background-color: transparent;
+    color: red;
+}
+/*-----------X-----------Info------------X----------------*/
